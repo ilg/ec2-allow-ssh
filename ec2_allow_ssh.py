@@ -5,7 +5,7 @@ from socket import gethostbyname
 
 import boto3
 import click
-import ipgetter
+from ipgetter2 import ipgetter1 as ipgetter
 
 ec2 = boto3.resource('ec2')
 
