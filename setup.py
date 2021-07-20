@@ -14,7 +14,7 @@ setup(
     install_requires=[
         'boto3',
         'Click',
-        'ipgetter',
+        'ipgetter2',
     ],
     entry_points='''
         [console_scripts]
